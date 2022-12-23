@@ -10,6 +10,7 @@ Print2DArray(array);
 List <(int number, int frequence)> dictionary = FindFrequence(array);
 Console.WriteLine(string.Join("\n", dictionary));
 
+
 List <(int number, int frequence)> FindFrequence (int[,] array)
 {
     List <(int number, int count)> dictionary = new List<(int, int)>();
